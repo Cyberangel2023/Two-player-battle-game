@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\character">
+      <UniqueIdentifier>{909a20b7-415a-41f9-ab40-534aab87eee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\collision">
+      <UniqueIdentifier>{3a12e25e-9677-4c64-8701-6ffb31bd8e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\player">
+      <UniqueIdentifier>{90bb072a-22a0-4e0c-93d6-945605d55964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\player\kong">
+      <UniqueIdentifier>{49040939-6ca4-4410-a2c0-d1c2ce013566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\player\yan">
+      <UniqueIdentifier>{61f2b07e-ef55-4aca-a57d-5289deb72cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\scene">
+      <UniqueIdentifier>{0c3f4e77-bab0-42e5-b003-8352dad56ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\button">
+      <UniqueIdentifier>{8546afc8-0b47-4dbd-ae13-9f37d8fcdf85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\resources">
+      <UniqueIdentifier>{39856a86-2355-4b7d-9cc5-4ddc37dd9b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\state">
+      <UniqueIdentifier>{8d40411f-2515-4419-8b62-4c58458fe082}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>头文件\character</Filter>
+    </ClInclude>
+    <ClInclude Include="character_manager.h">
+      <Filter>头文件\character</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_box.h">
+      <Filter>头文件\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_layer.h">
+      <Filter>头文件\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_manager.h">
+      <Filter>头文件\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="player_id.h">
+      <Filter>头文件\player</Filter>
+    </ClInclude>
+    <ClInclude Include="player_type.h">
+      <Filter>头文件\player</Filter>
+    </ClInclude>
+    <ClInclude Include="kong_player.h">
+      <Filter>头文件\player\kong</Filter>
+    </ClInclude>
+    <ClInclude Include="kong_player_state_node.h">
+      <Filter>头文件\player\kong</Filter>
+    </ClInclude>
+    <ClInclude Include="yan_player.h">
+      <Filter>头文件\player\yan</Filter>
+    </ClInclude>
+    <ClInclude Include="yan_player_state_node.h">
+      <Filter>头文件\player\yan</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_manager.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="selector_scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="game_scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>头文件\button</Filter>
+    </ClInclude>
+    <ClInclude Include="start_game_button.h">
+      <Filter>头文件\button</Filter>
+    </ClInclude>
+    <ClInclude Include="quit_game_button.h">
+      <Filter>头文件\button</Filter>
+    </ClInclude>
+    <ClInclude Include="resources_manager.h">
+      <Filter>头文件\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="state_machine.h">
+      <Filter>头文件\state</Filter>
+    </ClInclude>
+    <ClInclude Include="state_node.h">
+      <Filter>头文件\state</Filter>
+    </ClInclude>
+    <ClInclude Include="status_bar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>头文件\character</Filter>
+    </ClCompile>
+    <ClCompile Include="character_manager.cpp">
+      <Filter>头文件\character</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_manager.cpp">
+      <Filter>头文件\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="kong_player.cpp">
+      <Filter>头文件\player\kong</Filter>
+    </ClCompile>
+    <ClCompile Include="kong_player_state_node.cpp">
+      <Filter>头文件\player\kong</Filter>
+    </ClCompile>
+    <ClCompile Include="yan_player.cpp">
+      <Filter>头文件\player\yan</Filter>
+    </ClCompile>
+    <ClCompile Include="yan_player_state_node.cpp">
+      <Filter>头文件\player\yan</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_manager.cpp">
+      <Filter>头文件\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="resources_manager.cpp">
+      <Filter>头文件\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="state_machine.cpp">
+      <Filter>头文件\state</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
