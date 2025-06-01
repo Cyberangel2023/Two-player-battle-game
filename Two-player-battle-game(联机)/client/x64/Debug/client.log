@@ -1,0 +1,22 @@
+﻿  character.cpp
+  character_manager.cpp
+  collision_manager.cpp
+  kong_player.cpp
+  kong_player_state_node.cpp
+  client.cpp
+D:\code\VS\Projects\Project14（虫虫大作战（联机））\client\client.cpp(324,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\code\VS\Projects\Project14（虫虫大作战（联机））\client\client.cpp(325,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  resources_manager.cpp
+  scene_manager.cpp
+  state_machine.cpp
+  yan_player.cpp
+D:\code\VS\Projects\Project14（虫虫大作战（联机））\client\yan_player.cpp(554,22): warning C4305: “+=”: 从“double”到“float”截断
+D:\code\VS\Projects\Project14（虫虫大作战（联机））\client\yan_player.cpp(556,22): warning C4305: “+=”: 从“double”到“float”截断
+  yan_player_state_node.cpp
+D:\code\VS\Projects\Project14（虫虫大作战（联机））\client\yan_player_state_node.cpp(98,64): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\code\VS\Projects\Project14（虫虫大作战（联机））\client\yan_player_state_node.cpp(100,64): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\code\VS\Projects\Project14（虫虫大作战（联机））\client\yan_player_state_node.cpp(102,64): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\code\VS\Projects\Project14（虫虫大作战（联机））\client\yan_player_state_node.cpp(106,63): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+  正在生成代码...
+  LINK : 没有找到 D:\code\VS\Projects\Project14（虫虫大作战（联机））\x64\Debug\client.exe 或上一个增量链接没有生成它；正在执行完全链接
+  client.vcxproj -> D:\code\VS\Projects\Project14（虫虫大作战（联机））\x64\Debug\client.exe
